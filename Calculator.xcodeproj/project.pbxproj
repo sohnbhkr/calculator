@@ -16,6 +16,7 @@
 		CD7162B51D1239DE00C47E21 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7162B21D1239DE00C47E21 /* Calculator.m */; };
 		CD7162B61D1239DE00C47E21 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7162B41D1239DE00C47E21 /* Fraction.m */; };
 		CD7162B91D12860A00C47E21 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7162B81D12860A00C47E21 /* InfoViewController.m */; };
+		CD9F1A861D13B20C00795506 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1A851D13B20C00795506 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		CD7162B41D1239DE00C47E21 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		CD7162B71D12860A00C47E21 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		CD7162B81D12860A00C47E21 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CD9F1A841D13B20C00795506 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CD9F1A851D13B20C00795506 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				CD71629A1D1140C500C47E21 /* Supporting Files */,
 				CD7162B71D12860A00C47E21 /* InfoViewController.h */,
 				CD7162B81D12860A00C47E21 /* InfoViewController.m */,
+				CD9F1A841D13B20C00795506 /* ThirdViewController.h */,
+				CD9F1A851D13B20C00795506 /* ThirdViewController.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				CD71629F1D1140C500C47E21 /* AppDelegate.m in Sources */,
 				CD71629C1D1140C500C47E21 /* main.m in Sources */,
 				CD7162B61D1239DE00C47E21 /* Fraction.m in Sources */,
+				CD9F1A861D13B20C00795506 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +326,7 @@
 				CD7162B01D1140C600C47E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

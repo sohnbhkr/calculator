@@ -255,10 +255,10 @@
             </objects>
             <point key="canvasLocation" x="663" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="isN-Cj-pbK">
             <objects>
-                <viewController id="WVh-SO-ian" sceneMemberID="viewController">
+                <viewController id="WVh-SO-ian" customClass="ThirdViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v9O-uE-Qwy"/>
                         <viewControllerLayoutGuide type="bottom" id="fme-fT-sn5"/>
@@ -283,6 +283,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heh-Mq-2me">
+                                <rect key="frame" x="113" y="397" width="94" height="30"/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeColor:" destination="WVh-SO-ian" eventType="touchUpInside" id="6hc-xv-JTq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>

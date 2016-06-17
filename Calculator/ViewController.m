@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "InfoViewController.h"
+#import "ThirdViewController.h"
 #import "Calculator.h"
 
 @interface ViewController ()
@@ -52,6 +53,11 @@
     if ([segue.identifier isEqualToString: @"blueview"]) {
         InfoViewController *infoView = [segue destinationViewController];
         infoView.myString = @"Hello World(blueview)";
+   } else if ([segue.identifier isEqualToString: @"puppleview"]) {
+       ThirdViewController *thirdView = [segue destinationViewController];
+       [thirdView changeColorFunc: ^(UIColor *newColor) {
+           [self.view setBackgroundColor: newColor];
+       }];
    }
 }
 
